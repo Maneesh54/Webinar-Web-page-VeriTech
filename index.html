@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Mastering Web Development: Essential Skills for Building Modern Websites</h1>
+    </div>
+    <div id="main">
+        <div id="dev-pic">
+            <img src="images/dev pic.jpg" alt="">
+        </div>
+        <div id="side-content">
+            <h2>Full Stack Web Development Webinars by VeriTech</h2>
+            <p>Web Development webinars by VeriTech Software IT Services will help you to build interactive and responsive web applications using both front-end and back-end technologies. Join our Web Development webinars and master the concepts of various Web Development technologies such as Angular, React, Node, JavaScript, HTML & CSS.</p>
+            <h2 class="box">Free Webinar</h2>
+        </div>
+    </div>
+    <div id="register">
+        <div id="session-name">
+            <h2>The Full Stack Web Developer Webinar</h2>
+        </div>
+        <div id="time">
+            <p>Date:17/01/24 | Time:17:30 pm</p>
+        </div>
+    </div>
+    <div id="last-section">
+        <div class="pic">
+            <img src="images/webinar.jpg" alt="">
+        </div>
+        <div id="form">
+            <h3>Reserve your spot now</h3>
+            <form id="RegistrationForm" onsubmit="handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="company">Company/Organization:</label>
+                <input type="text" id="company" name="company"><br><br>
+            
+                <label for="how_heard">How did you hear about this webinar?</label>
+                <select id="how_heard" name="how_heard">
+                    <option value="">Please Select</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Website">Website</option>
+                    <option value="Email">Email</option>
+                    <option value="Friend/Colleague">Friend/Colleague</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+            
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <div id="agenda">
+        <div id="first-row">
+            <div class="description">
+                <h3>Description</h3>
+                <p>Join us for an engaging and comprehensive webinar diving deep into the world of web development. Whether you're a novice exploring the foundations or an experienced developer aiming to refine your skills, this session is designed to equip you with the essential tools and knowledge to create dynamic, responsive, and visually captivating websites.</p>
+            </div>
+            <div class="reviews">
+                <h3>Reviews</h3>
+                <li>
+                    "Fantastic session! I learned a lot about frontend frameworks and can't wait to apply this knowledge." - Jessica S.
+                </li>
+                <li>
+                    "Clear explanations and great examples. Highly recommend this webinar to anyone starting in web development." - Alex M.
+                </li>
+            </div>
+        </div>
+        <div id="second-row">
+            <div class="points">
+                <h3>Key points to cover</h3>
+                <li>
+                    Introduction to HTML, CSS, and JavaScript
+                </li>
+                <li>
+                    Responsive Design Principles
+                </li>
+                <li>
+                    Overview of Frontend and Backend Development
+                </li>
+                <li>
+                    Exploring Popular Frameworks (e.g., React, Angular, Vue.js)
+                </li>
+                <li>
+                    Tips for Optimizing Performance and User Experience
+                </li>
+            </div>
+            <div class="ques">
+                <h3>FAQs</h3>
+                <li>
+                    Is this webinar suitable for beginners? <br>
+                    A: Absolutely! This session covers fundamental concepts.
+                </li>
+                <li>
+                    Will the webinar be recorded? <br>
+                    A: Yes, a recording will be available to registered attendees.
+                </li>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
